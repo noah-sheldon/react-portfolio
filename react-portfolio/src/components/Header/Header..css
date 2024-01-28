@@ -1,0 +1,47 @@
+
+
+.btn-linkedin {
+    background: #0E76A8 !important;
+    border-radius: 35px !important;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #084461;
+}
+
+.btn-linkedin:link,
+.btn-linkedin:visited,
+.btn-whatsapp:link,
+.btn-whatsapp:visited {
+    color: #fff;
+}
+
+.btn-linkedin:active,
+.btn-linkedin:hover,
+.btn-whatsapp:active,
+.btn-whatsapp:hover
+.btn-github:active,
+.btn-github:hover {
+    background: #084461 !important ;
+    color: #fff !important;
+}
+
+.btn-whatsapp {
+    background: #25d366 !important;
+    border-radius: 35px !important;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #084461;
+    margin-right: 20px;
+}
+
+.btn-github {
+    background: black !important;
+    border-radius: 35px !important;
+    color: #fff !important;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-right: 20px;
+}
