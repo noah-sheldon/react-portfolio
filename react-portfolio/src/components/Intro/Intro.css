@@ -1,0 +1,27 @@
+.jumbotron {
+    height: auto;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    max-width: 100px;
+    height: auto;
+}
+
+.lead {
+    margin: 20px;
+}
+
+.about-me {
+    margin: 20px;
+}
+
+.btn-contact {
+    margin: 20px;
+    background: rgb(38, 178, 184);
+    background: linear-gradient(45deg, rgba(38, 178, 184, 1) 0%, rgba(136, 175, 97, 1) 100%);
+    padding-bottom: 20px;
+}

@@ -5,7 +5,7 @@ function Header() {
     <>
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand text-white fw-bold fs-2" href="#">
             Noah Sheldon
           </a>
           <button
@@ -22,23 +22,44 @@ function Header() {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
               <a
-                className="nav-link active"
+                className="nav-link active text-white"
                 aria-current="page"
                 href="#aboutme"
               >
                 About Me
               </a>
               <a
-                className="nav-link active"
+                className="nav-link active text-white"
+                aria-current="page"
+                href="#experience"
+              >
+                Experience
+              </a>
+              <a
+                className="nav-link active text-white"
+                aria-current="page"
+                href="#education"
+              >
+                Education
+              </a>
+              <a
+                className="nav-link active text-white"
+                aria-current="page"
+                href="#certifications"
+              >
+                Certifications
+              </a>
+              <a
+                className="nav-link active text-white"
                 aria-current="page"
                 href="#projects"
               >
                 Projects
               </a>
-              <a className="nav-link active" href="#skills">
+              <a className="nav-link active text-white" href="#skills">
                 Skills
               </a>
-              <a className="nav-link active" href="#contactme">
+              <a className="nav-link active text-white" href="#contactme">
                 Contact Me
               </a>
             </div>
