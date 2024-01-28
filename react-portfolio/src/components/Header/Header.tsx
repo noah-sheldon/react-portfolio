@@ -42,13 +42,13 @@ function Header() {
               >
                 Education
               </a>
-              <a
+              {/* <a
                 className="nav-link active text-white"
                 aria-current="page"
                 href="#certifications"
               >
                 Certifications
-              </a>
+              </a> */}
               <a
                 className="nav-link active text-white"
                 aria-current="page"

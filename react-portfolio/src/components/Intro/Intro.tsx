@@ -33,7 +33,7 @@ function Intro() {
           <p>
             <a
               className="btn btn-contact btn-lg text-white"
-              href="#contact"
+              href="#contactme"
               role="button"
             >
               Contact Me Now
