@@ -35,7 +35,7 @@ To initiate this project, follow these steps:
 
 The landing page for the application looks like the following on a standard HD screen 1920*1080 display.
 
-![alt text](./scr_1920.png)
+![scr_1920](https://github.com/noah-sheldon/react-portfolio/assets/36855642/49461211-00d8-43cc-b35c-019a50c3c902)
 
 ## Deployed Application
 
