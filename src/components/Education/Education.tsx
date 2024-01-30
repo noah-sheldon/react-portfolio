@@ -28,7 +28,7 @@ const educationData: EducaitonEntry[] = [
 
 const Education: React.FC = () => {
   return (
-    <div className="timeline">
+    <div className="timeline edu-con">
       <h1 id="education" className="display-4">
         Education
       </h1>

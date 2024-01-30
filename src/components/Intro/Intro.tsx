@@ -1,5 +1,7 @@
 import "./Intro.css";
 import profilePicture from "./profile_picture.jpg";
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Intro() {
   return (
@@ -31,12 +33,10 @@ function Intro() {
           </p>
 
           <p>
-            <a
-              className="btn btn-contact btn-lg text-white"
-              href="#contactme"
-              role="button"
-            >
-              Contact Me Now
+            <a className="btn btn-contact btn-lg text-white" role="button">
+              <NavLink to="/react-portfolio/contact" end>
+                Contact Me Now
+              </NavLink>
             </a>
           </p>
         </div>

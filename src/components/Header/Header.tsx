@@ -1,13 +1,24 @@
 import "./Header..css";
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
     <>
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
-          <a className="navbar-brand text-white fw-bold fs-2" href="#">
-            Noah Sheldon
+          <a className="navbar-brand text-white fw-bold fs-2">
+            <NavLink
+              to="/react-portfolio/"
+              end
+              className={({ isActive }) =>
+                isActive ? "nav-link active" : "nav-link"
+              }
+            >
+              Noah Sheldon
+            </NavLink>
           </a>
+
           <button
             className="navbar-toggler"
             type="button"
@@ -26,21 +37,45 @@ function Header() {
                 aria-current="page"
                 href="#aboutme"
               >
-                About Me
+                <NavLink
+                  to="/react-portfolio/"
+                  end
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                >
+                  Home
+                </NavLink>
               </a>
               <a
                 className="nav-link active text-white"
                 aria-current="page"
                 href="#experience"
               >
-                Experience
+                <NavLink
+                  to="/react-portfolio/experience"
+                  end
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                >
+                  Experience
+                </NavLink>
               </a>
               <a
                 className="nav-link active text-white"
                 aria-current="page"
                 href="#education"
               >
-                Education
+                <NavLink
+                  to="/react-portfolio/education"
+                  end
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                >
+                  Education
+                </NavLink>
               </a>
               {/* <a
                 className="nav-link active text-white"
@@ -54,16 +89,49 @@ function Header() {
                 aria-current="page"
                 href="#projects"
               >
-                Projects
+                <NavLink
+                  to="/react-portfolio/projects"
+                  end
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                >
+                  Projects
+                </NavLink>
               </a>
               <a className="nav-link active text-white" href="#skills">
-                Skills
+                <NavLink
+                  to="/react-portfolio/skills"
+                  end
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                >
+                  Skills
+                </NavLink>
               </a>
               <a className="nav-link active text-white" href="#contactme">
-                Contact Me
+                <NavLink
+                  to="/react-portfolio/contact"
+                  end
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                >
+                  Contact Me
+                </NavLink>
               </a>
             </div>
             <div className="navbar-nav ms-auto">
+              <li className="nav-item">
+                {/* < pdfUrl="https://drive.google.com/file/d/1a5d5TWh809Xz8c-bBb9t-KzeVYvSOMgA/view?usp=sharing" /> */}
+                <a href="https://drive.google.com/file/d/1a5d5TWh809Xz8c-bBb9t-KzeVYvSOMgA/view?usp=sharing">
+                  <button className="btn btn bg-secondary me-3 mt-1">
+                    {" "}
+                    Download Resume
+                  </button>
+                </a>
+              </li>
               <link
                 rel="stylesheet"
                 href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
