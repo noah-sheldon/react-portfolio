@@ -1,6 +1,5 @@
 import "./Intro.css";
 import profilePicture from "./profile_picture.jpg";
-import React from "react";
 import { NavLink } from "react-router-dom";
 
 function Intro() {
