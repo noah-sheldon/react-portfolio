@@ -6,17 +6,13 @@ function Header() {
     <>
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
-          <a className="navbar-brand text-white fw-bold fs-2">
-            <NavLink
-              to="/react-portfolio/"
-              end
-              className={({ isActive }) =>
-                isActive ? "nav-link active" : "nav-link"
-              }
-            >
-              Noah Sheldon
-            </NavLink>
-          </a>
+          <NavLink
+            className="navbar-brand text-white fw-bold fs-2"
+            to="/react-portfolio/"
+            end
+          >
+            Noah Sheldon
+          </NavLink>
 
           <button
             className="navbar-toggler"
@@ -31,51 +27,39 @@ function Header() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a
-                className="nav-link active text-white"
-                aria-current="page"
-                href="#aboutme"
+              <NavLink
+                to="/react-portfolio/"
+                end
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link active text-white"
+                    : "nav-link text-white"
+                }
               >
-                <NavLink
-                  to="/react-portfolio/"
-                  end
-                  className={({ isActive }) =>
-                    isActive ? "nav-link active" : "nav-link"
-                  }
-                >
-                  Home
-                </NavLink>
-              </a>
-              <a
-                className="nav-link active text-white"
-                aria-current="page"
-                href="#experience"
+                Home
+              </NavLink>
+              <NavLink
+                to="/react-portfolio/experience"
+                end
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link active text-white"
+                    : "nav-link text-white"
+                }
               >
-                <NavLink
-                  to="/react-portfolio/experience"
-                  end
-                  className={({ isActive }) =>
-                    isActive ? "nav-link active" : "nav-link"
-                  }
-                >
-                  Experience
-                </NavLink>
-              </a>
-              <a
-                className="nav-link active text-white"
-                aria-current="page"
-                href="#education"
+                Experience
+              </NavLink>
+              <NavLink
+                to="/react-portfolio/education"
+                end
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link active text-white"
+                    : "nav-link text-white"
+                }
               >
-                <NavLink
-                  to="/react-portfolio/education"
-                  end
-                  className={({ isActive }) =>
-                    isActive ? "nav-link active" : "nav-link"
-                  }
-                >
-                  Education
-                </NavLink>
-              </a>
+                Education
+              </NavLink>
               {/* <a
                 className="nav-link active text-white"
                 aria-current="page"
@@ -83,50 +67,46 @@ function Header() {
               >
                 Certifications
               </a> */}
-              <a
-                className="nav-link active text-white"
-                aria-current="page"
-                href="#projects"
+              <NavLink
+                to="/react-portfolio/projects"
+                end
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link active text-white"
+                    : "nav-link text-white"
+                }
               >
-                <NavLink
-                  to="/react-portfolio/projects"
-                  end
-                  className={({ isActive }) =>
-                    isActive ? "nav-link active" : "nav-link"
-                  }
-                >
-                  Projects
-                </NavLink>
-              </a>
-              <a className="nav-link active text-white" href="#skills">
-                <NavLink
-                  to="/react-portfolio/skills"
-                  end
-                  className={({ isActive }) =>
-                    isActive ? "nav-link active" : "nav-link"
-                  }
-                >
-                  Skills
-                </NavLink>
-              </a>
-              <a className="nav-link active text-white" href="#contactme">
-                <NavLink
-                  to="/react-portfolio/contact"
-                  end
-                  className={({ isActive }) =>
-                    isActive ? "nav-link active" : "nav-link"
-                  }
-                >
-                  Contact Me
-                </NavLink>
-              </a>
+                Projects
+              </NavLink>
+
+              <NavLink
+                to="/react-portfolio/skills"
+                end
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link active text-white"
+                    : "nav-link text-white"
+                }
+              >
+                Skills
+              </NavLink>
+              <NavLink
+                to="/react-portfolio/contact"
+                end
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link active text-white"
+                    : "nav-link text-white"
+                }
+              >
+                Contact Me
+              </NavLink>
             </div>
             <div className="navbar-nav ms-auto">
               <li className="nav-item">
                 {/* < pdfUrl="https://drive.google.com/file/d/1a5d5TWh809Xz8c-bBb9t-KzeVYvSOMgA/view?usp=sharing" /> */}
                 <a href="https://drive.google.com/file/d/1a5d5TWh809Xz8c-bBb9t-KzeVYvSOMgA/view?usp=sharing">
-                  <button className="btn btn bg-secondary me-3 mt-1">
-                    {" "}
+                  <button className="btn resumeBtn me-3 mt-1">
                     Download Resume
                   </button>
                 </a>

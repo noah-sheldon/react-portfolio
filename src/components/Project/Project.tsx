@@ -9,7 +9,7 @@ import "./Project.css";
 const Projects: React.FC = () => {
   return (
     <>
-      <div className="container mt-2">
+      <div className="container mt-2 pt-3">
         <h1 id="projects" className="display-4 mb-4">
           Projects
         </h1>

@@ -1,6 +1,12 @@
 .footer {
     background: rgb(38, 178, 184);
     background: linear-gradient(45deg, rgba(38, 178, 184, 1) 0%, rgba(136, 175, 97, 1) 100%);
+    position: relative;
+    height: 150px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }
 
 .box a {
@@ -9,5 +15,4 @@
 
 .box a:hover {
     box-shadow: 0 3px 10px rgb(0, 0, 0) !important;
-
 }

@@ -6,7 +6,7 @@ function Intro() {
   return (
     <>
       <div className="intro">
-        <div className="jumbotron">
+        <div className="jumbotron pt-5 ">
           <img
             src={profilePicture}
             alt="Profile Picture"
@@ -32,11 +32,13 @@ function Intro() {
           </p>
 
           <p>
-            <a className="btn btn-contact btn-lg text-white" role="button">
-              <NavLink to="/react-portfolio/contact" end>
-                Contact Me Now
-              </NavLink>
-            </a>
+            <NavLink
+              className="btn btn-contact btn-lg text-white"
+              to="/react-portfolio/contact"
+              end
+            >
+              Contact Me Now
+            </NavLink>
           </p>
         </div>
       </div>
